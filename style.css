@@ -1,0 +1,530 @@
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('fonts/ProximaNova-Regular.eot') format('embedded-opentype'),
+		url('fonts/ProximaNova-Regular.woff') format('woff'),
+		url('fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bd';
+	src: url('ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('fonts/ProximaNova-Bold.eot') format('embedded-opentype'),
+		url('fonts/ProximaNova-Bold.woff') format('woff'),
+		url('fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Proxima Nova Rg", sans-serif;
+}
+
+.back_head1 {
+    background-color: #0a0e34;
+    background-image: url('images/football.png');
+    background-size: stretch;
+    background-repeat: no-repeat;
+    height: 960px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.left_side {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 720px;
+    margin-top: 54px;
+}
+
+.right_side {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 55px;
+}
+
+.h1_introduce {
+    color: #ffffff;
+    font-family: "Proxima Nova Bd";
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 4px;
+    line-height: normal;
+}
+
+.introduce {
+    margin-top: 250px;
+}
+
+.h1_introduce{
+    display: block;
+}
+
+.left_int {
+    margin-right: 570px;
+}
+
+.right_int {
+    margin-left: 300px;
+}
+
+.flex_int {
+    background-image: url(images/Rectangle_1_копия.png);
+    background-repeat: no-repeat;
+    background-position-x: 32%;
+}
+
+.li_introduce {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+    color: #9071ea;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+
+.navigation {
+    margin-left: 650px;
+}
+
+.button {
+    width: 311px;
+    height: 77px;
+    box-shadow: 0 16px 24px #0a0e34;
+    background-color: #5e42b0;
+    border-radius: 60px;
+    margin-right: 50px;
+}
+
+.image_button {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 17px;
+    padding-right: 25px;
+}
+
+.text_button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.with_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 110px;
+}
+
+.thin_button {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.bold_button {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-align: left;
+}
+
+/* Части с футболистами */
+/* Первая */
+
+.second_text {
+    margin-left: 50%;
+}
+
+.second_container {
+    margin-top: 200px;
+}
+
+.athlets {
+    color: #e7e7e7;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.number_1 {
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    line-height: normal;
+    border-bottom: #5e42b0 6px solid;
+    border-radius: 2px;
+    padding-top: 5px;
+}
+
+.text_1 {
+    display: inline-block;
+    vertical-align: top;
+    color: #c1c1c1;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34.49px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    margin-left: 13px;
+}
+
+.text_2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: normal;
+    margin-top: 31px;
+    margin-right: 222px;
+}
+
+.second_text {
+    text-align: left;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.another_3 {
+    border-bottom: #efefef 6px solid;
+}
+
+.another_2 {
+    color: #ffffff;
+}
+
+.back_two {
+    background-color: rgb(94, 66, 176, 0.06);
+}
+
+.back_three {
+    background-color: #5e42b0;
+}
+
+.second_container {
+    position: relative;
+}
+
+.left_football {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    margin-right: 50%;
+}
+
+.img_football {
+    background-image: url('images/Rectangle_1_копия.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+}
+
+/* Вторая */
+
+.third_container {
+    margin-top: 100px;
+    position: relative;
+}
+
+.left_div {
+    margin-right: 50%;
+    margin-left: 200px;
+}
+
+.text_3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: normal;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.text_4 {
+    color: #ffffff;
+}
+
+.back_div2 {
+    background-color: rgb(94, 66, 176, 0.06);
+}
+
+.back_div3 {
+    background-color: #0a0e34;
+}
+
+.div_left {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: left;
+}
+
+.image_right {
+    position: absolute;
+    margin-left: 40%;
+    top: 3%;
+}
+
+/* CARDS */
+
+.card {
+    display: flex;
+}
+
+.card_image {
+    flex-basis: 50%;
+    background-image: url('images/shutterstock_229044115.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_content {
+    flex-basis: 50%;
+    max-width: 786px;
+    padding: 244px 15px 122px 127px;
+    text-align: left;
+    position: relative;
+}
+
+.card_title {
+    color: #e6e6e6;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 90px;
+    margin-bottom: 103px;
+}
+
+.card_description {
+    padding-left: 6px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    max-width: 322px;
+    min-height: 140px;
+    position: relative;
+}
+
+.card_description::after {
+    contain: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.card_number {
+    width: 168px;
+    height: 155px;
+    background-color: #5e42b0;
+    display: flex;
+    position: absolute;
+    top: 211px;
+    left: -84px;
+}
+
+.card_number_value {
+    margin: auto;
+    color: #f5f6f7;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.49px;
+    letter-spacing: 1.2px;
+}
+
+.card_number_value::after {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #8e7bc8;
+}
+
+.image_card2 {
+    background-image: url('images/shutterstock_150334202.png');
+}
+
+.image_card3 {
+    background-image: url('images/bigstock-Football-players-and-coach-dis-49690757.png');
+}
+
+.card_reverse {
+    flex-direction: row-reverse;
+}
+
+.content_reverse {
+    padding-left: 15px;
+    padding-right: 122px;
+}
+
+.number_reverse {
+    left: auto;
+    right: -84px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-image: url('images/photo-1417716226287-2f8cd2e80274.png');
+    background-color: #0a0e34;
+    background-size: stretch;
+    background-repeat: no-repeat;
+}
+
+.icon_button {
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    height: 137px;
+}
+
+.icon_text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 34px;
+    padding-top: 18px;
+}
+
+.long_text {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.download_down {
+    padding-top: 209px;
+    margin-bottom: 151px;
+}
+
+.long_p {
+    color: #a496ca;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34.49px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.butt_on {
+    padding-bottom: 132px;
+}
+
+.down_footer {
+    background-color: rgb(10, 14, 52, 0.8);
+}
+
+.flex_flex {
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.flex_footer {
+    align-items: stretch;
+}
+
+.pic {
+    margin-left: 600px;
+}
+
+.contact_p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.pic_flex {
+    padding: 2px 20px 2px 20px;
+}
+
+.contact {
+    padding-top: 8px;
+    margin-left: 490px;
+}
+
+
+
+
+
+
+
+
+
+
+
